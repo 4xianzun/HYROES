@@ -1,0 +1,154 @@
+#fulllogin .note {display:none; visibility:hidden; height: 0;}
+
+/* structure */
+div#header {
+	border-bottom:2px solid #8b8e8d ; background:#fff ; width:100%; max-width:980px; min-width:740px;}	
+
+div#header img#partner, div#header #logo {
+	margin-top:0px; width:100%;}
+
+div#hold-unav {width:100%; max-width:980px; min-width:740px;}
+
+div#footer, div#footer-links, #select-language   {width:100%; max-width:980px; min-width:740px; }
+
+/* LINK STYLE */
+a {color:#192152; text-decoration:none;} a:hover {color:#666; text-decoration:underline;}
+
+
+/* COMMUNICATION - ALPHA BOX AREA */
+div#communication {
+	float:left; display:inline; width:240px; background:#fff;}
+
+/* SUBHEAD */
+h2.subhead-section {
+	margin-bottom:1em; color:#fff; background:#192152;}
+
+
+/* TABLE */
+table {
+	margin:10px 0 2em; background:#fff;}
+th {
+	padding:2px 10px; color:#ededeb; text-align:left; vertical-align:top; border-bottom:1px solid #2a2f1a; background:#192152;}	
+
+table#country-list{ float:left; margin-right: 50px;}
+table#country-list-right {margin-top: 20px;}
+
+/* HOLD-NAV AT TOP RIGHT OF PAGE */
+div#hold-unav ul#nav-user {
+	float:right; margin-right:.5em; height:1%; width:auto; list-style:none; overflow:hidden;}
+div#hold-unav ul#nav-user li {
+	float:left; display:block; margin:0 .25em; padding:.25em 0 .5em; vertical-align:middle;}	
+div#hold-unav ul#nav-user li a {
+	display:block; padding:.15em .5em; color:#666; text-decoration:none;}
+div#hold-unav ul#nav-user li a span {
+	color:#ff0000;}
+div#hold-unav ul#nav-user li a:hover {
+	color:#fff; background:#666; }
+div#hold-unav ul#nav-user li a#on-unav {
+	color:#fff; background:#666;}
+	
+	
+/* HEADER */
+div#nav-account ul {
+	margin:0; padding:.5em 1em 0; height:1%; list-style:none; overflow:hidden; background:#efefef;}
+div#nav-account li {
+	float:left;	margin-right:2px; padding-left:12px; background:#ccc url(../i/tabs.gif) 0 0 no-repeat;}
+div#nav-account li a {
+	display:block; text-decoration:none; padding:6px 12px 4px 0; font-size:1.4em; font-weight:normal; color:#777; background:#ccc url(../i/tabs.gif) 100% 0 no-repeat;}
+div#nav-account li a:hover {color:#000}
+div#nav-account li#on {
+	background:#fff url(../i/tabs.gif) 0 -100px no-repeat;}
+div#nav-account li#on a {
+	display:block; color:#333; font-weight:bold; text-decoration:none; background:url(../i/tabs.gif) 100% -100px no-repeat;}	
+
+/* PROMO - BALANCE AREA */
+div#promo div#hello {
+	margin-bottom:10px; padding:10px; background:#192152;}
+div#promo #hello p.tips a {
+	color: #fff; text-decoration:underline;}
+
+/* SHOPLINKS - SHOP PAGE */
+div.shoplinks {
+	height:1%; margin-top:1em; overflow:hidden;}
+div.shoplinks dl {
+	float:left; margin:0 1em 1em; width:20em;}
+div.shoplinks dt {
+	font-size:1.25em; font-weight:bold;}
+	
+
+/* FORM BUTTONS */
+form dl, fieldset dl {
+	margin-bottom:1.5em; font-size:1.25em; height:1%; overflow:hidden;}
+form dt, fieldset dt {
+    clear:both; float:left; padding:0 0 2px 0; width:30%; font-weight:bold; text-align: right; vertical-align:top;}
+form dd, fieldset dd {
+    float:left; margin: 0 0 8px 0; padding-left: 6px; width:65%; vertical-align:top;}
+form dd.button input {
+	margin:0; padding:.3em .5em; font-size:1.15em; font-weight:bold; color: #fff; text-decoration:none; border: 3px double #fff; border-top-color: #fff; border-left-color: #fff; background: #192152; cursor:pointer;}
+form dd.button input.cancel, a.cancel {
+	margin:0 0 0 2em; padding:.3em .5em; font-size:.85em; font-weight:bold; color: #006; text-decoration:none; border: 3px double #006; border-top-color: #006; border-left-color: #192152; background: #ededeb;}	
+	
+	
+/* BILL PAY PAGE */
+p.billpay { padding:3px 15px; font-size:1.25em; }
+p.billpay a:hover { text-decoration: underline; }
+
+/* Styles for virtual product */
+
+div#wrp-card-info {width: 310px; margin: 25px auto; padding: 15px 20px; background: #fff; border: 1px solid #ddd; border-radius:10px;
+-moz-box-shadow: 0px 0px 5px #ccc;
+-webkit-box-shadow: 0px 0px 5px #ccc;
+box-shadow: 0px 0px 5px #ccc;
+margin-bottom: 0;}
+
+dl#card-info {
+	font-size:13px; text-align:left; overflow:hidden; width: 305px; background:#fff; border:0; padding:0;}
+dl#card-info dt {
+	float:left; margin:0 10px 10px 0; width:100px;}
+dl#card-info dd {
+	float:left; margin:0 0 10px; width:190px; font-weight:bold; }
+dl#card-info dd a {font-weight:normal;}
+dl#card-info dd#card-number span {margin-right:5px;}
+dl#card-info dt.card-bot, dl#card-info dd.card-bot {
+	margin-bottom:0;}
+
+
+
+/* Styles for virtual product */
+
+h1#my-balance {
+	margin:0 auto; padding:5px 20px; width:550px; background:#ddd;}
+div#other-actions {
+	margin:0 auto; width:475px;}
+div#other-actions p {
+	height:1%; overflow:hidden;}
+div#other-actions p span {
+	display:block; float:left; width:320px;}
+div#other-actions p a {
+	display:block; float:right; width:100px; padding: 2px; font-size: 12px; text-align:center; border:0px solid #333; border-top:0px solid #ccc; border-left:0px solid #ccc; background:#eee;}
+div#other-actions p a:hover {
+	background:#fff;}
+
+
+
+/***********Added css for shop page customizations****************/
+
+div.shoplinks dl{
+	width:100% !important;
+	float:none !important;
+}
+div.shoplinks dt.category{
+    display: block;
+    padding: .5em 2em .5em 2em;
+    color: #fff;
+    background: #192152;
+    border-radius: 5px;
+    margin-bottom: 1em !important;
+}
+div.shoplinks dd.categoryLinks{
+	text-align:center;
+}
+
+.shop-cardName-overlay, .shop-cardNumber-overlay, .card-exp-cvv, .card-info-details{
+color:white !important;
+}
